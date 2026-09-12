@@ -1,0 +1,22 @@
+CAMPUS CANTEEN ORDER CALCULATOR
+TEST THE BEHAVIOR (TEST RECORD)
+
+CASE ID |     ACTUAL RESULT		    |       PASS/FAIL       | CORRECTION MADE
+T1      |     Total 216.00		    |       PASS            | NO CORRECTION NEEDED
+T2      |     Total 142.50		    |       PASS            | NO CORRECTION NEEDED
+T3      |     Total 90.00		    |       PASS            | NO CORRECTION NEEDED
+T4      |  Category guest, Total 50.00      |       PASS            | NO CORRECTION NEEDED
+T5      |  Category student, Total 45.00    |       PASS            | NO CORRECTION NEEDED
+T6      |     "No items ordered."	    |       PASS            | NO CORRECTION NEEDED
+T7      |	Subtotal/total 1500.00	    |       PASS            | NO CORRECTION NEEDED
+T8      |     Error shown, no receipt	    |	    PASS            | NO CORRECTION NEEDED
+T9      |     Error shown, no receipt	    |       PASS            | NO CORRECTION NEEDED
+T10a    |  First quantity -1: Rejected	    |       PASS            | NO CORRECTION NEEDED
+T10b    |  First quantity 1.5: Rejected	    |       PASS            | NO CORRECTION NEEDED
+T10c    |  First quantity 11: Rejected	    |       PASS            | NO CORRECTION NEEDED
+T11a    | Cancel Name: cancelled shown	    |       PASS            | NO CORRECTION NEEDED
+T11b    |Cancel category: cancelled shown   |       PASS            | NO CORRECTION NEEDED
+T11c    |Cancel a quantity: cancelled shown |       PASS            | NO CORRECTION NEEDED
+T12     |    Error, no category/quantity    |       PASS            | NO CORRECTION NEEDED
+T13     |    Category guest, total 50.00    |       PASS            | NO CORRECTION NEEDED
+T14     |    Error; stop, No receipt	    |       PASS            | NO CORRECTION NEEDED
