@@ -1,0 +1,32 @@
+Name: Kwynn G. Rollorata
+Course & Section: ITE18 - CKDELM1
+
+INDIVIDUAL EXIT QUESTIONS
+• Why must a quantity from prompt() be checked and converted before arithmetic?
+	Because the prompt() returns the user's input as a string, 
+	I have to use Number() to convert it to a number and check to
+	to validate it before doing the arithmetic. So that, any invalid
+	values such as letters, decimals, negative numbers, or values above
+	10 are rejected. 
+
+• Choose one const and one let from your program. Explain both choices. 
+	const - I used "const prices = [50, 80, 20];" because the menu prices shouldn't be reassigned.
+	let - I used "let subtotal = 0;" because everytime each item's
+		total is added, the subtotal changes.
+
+• What is your loop’s final valid index, and why does it stop? 
+	Since the array only contains 3 items which has indexes of 0, 1, 2,
+	the final valid index is 2. 
+	While the length is 3, the loop stops when i(the items.length) 
+	becomes 3, since i < items.length.
+
+• What happens when the category is “staff,” and what prevents fall-through? 
+	Category "staff" is in switch case, so it just matches and do what is inside.
+	The "break" statement would prevent the fall-through and just continue to the next case. 
+
+• What happens after Cancel? Explain how your program avoids a partial receipt.
+	If cancel is pressed, the prompt() will return null.
+	The program avoids partial receipt because it checks for null, 
+	will set the state of cancellation, then display cancellation message, 
+	and it doesn't calculate or display a receipt. 
+
