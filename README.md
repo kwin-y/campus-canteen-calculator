@@ -4,6 +4,11 @@ ITE18 - TOPIC 1: FUNDAMENTALS OF JAVASCRIPT
 NAME: KWYNN G. ROLLORATA
 SECTION: CKDELM1
 
+-- DESCRIPTION
+This is a Javascript browser program that asks for a customer name, selects a discount from a category, collects
+quantities for three menu items, and displays a correct receipt. Use prompt(), alert(), and the developer
+console.
+
 -- HOW TO RUN
 1. Make sure index.html and script.js are in the same folder.
 2. Open index.html in a web browser (double-click the file, or right click->Open with->your browser).
